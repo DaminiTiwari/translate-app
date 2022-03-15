@@ -2,7 +2,7 @@ var inputButton = document.querySelector("#translate-btn");
 var textInput = document.querySelector("#text-area")
 var outputText = document.querySelector("#output")
 
-var url = "https://api.funtranslations.com/translate/minion.json"
+var url = "https://****************"
 
 var tranlationURL = (text) => {
     return url + "?" + "text="+ text;
